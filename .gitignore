@@ -3,5 +3,4 @@
 *.pyo
 .env
 venv/
-datasets/
 models/*.pkl
