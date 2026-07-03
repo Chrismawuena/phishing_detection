@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      width: 280px;
+      font-family: -apple-system, Arial, sans-serif;
+      padding: 12px;
+      margin: 0;
+    }
+    h1 {
+      font-size: 14px;
+      margin: 0 0 10px 0;
+    }
+    .status {
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    .safe {
+      background: #e6f4ea;
+      color: #1e7e34;
+    }
+    .danger {
+      background: #fce8e6;
+      color: #c5221f;
+    }
+    .neutral {
+      background: #f1f3f4;
+      color: #5f6368;
+    }
+    .subject {
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 4px;
+      word-break: break-word;
+    }
+    .confidence {
+      font-size: 12px;
+      opacity: 0.8;
+    }
+    .words {
+      font-size: 11px;
+      margin-top: 6px;
+      color: #5f6368;
+    }
+  </style>
+</head>
+<body>
+  <h1>AI Phishing Detector</h1>
+  <div id="result">Loading...</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
