@@ -10,9 +10,9 @@
   ],
 
   "host_permissions": [
-    "https://mail.google.com/*",
-    "http://127.0.0.1:5000/*"
-  ],
+  "https://mail.google.com/*",
+  "https://phishing-detection-1-8y6z.onrender.com/*"
+],
 
   "background": {
     "service_worker": "background.js"

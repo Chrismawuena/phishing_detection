@@ -1,6 +1,6 @@
 console.log("AI Phishing Extension: background service worker loaded");
 
-const API_URL = "http://127.0.0.1:5000/scan";
+const API_URL = "https://phishing-detection-1-8y6z.onrender.com/scan";
 
 let lastNotifiedText = null;
 
